@@ -15,7 +15,7 @@ const ImageTextBox = ({ slice }: ImageTextBoxSlice) => {
           </div>
           {box.image.url && (
             <div
-              style={{ position: "relative", height: "100%", width: "60rem" }}
+              style={{ position: "relative", height: "100%", width: "100%" }}
             >
               <Image layout="fill" alt={box.image.url} src={box.image.url} />
             </div>
