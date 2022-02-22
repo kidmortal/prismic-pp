@@ -2,7 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["cdn.discordapp.com", "images.unsplash.com", "images.prismic.io"],
+    domains: [
+      "cdn.discordapp.com",
+      "images.unsplash.com",
+      "images.prismic.io",
+      "prismic-pp.cdn.prismic.io",
+    ],
     formats: ["image/avif", "image/webp"],
   },
 };

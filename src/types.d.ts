@@ -1,5 +1,20 @@
 declare module "next-slicezone";
 
+declare type HeaderSlice = {
+  slice: {
+    primary: {
+      logo: PrismicImage;
+    };
+    items: MenuLinks[];
+  };
+};
+
+type MenuLinks = {
+  title: PrismicText;
+  link: PrismicLink;
+  icon: PrismicImage;
+};
+
 declare type MainBannerSlice = {
   slice: {
     primary: {

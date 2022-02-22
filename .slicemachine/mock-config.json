@@ -32,6 +32,15 @@
       "default-slice": {
         "primary": {}
       }
+    },
+    "Header": {
+      "default-slice": {
+        "primary": {
+          "logo": {
+            "content": ""
+          }
+        }
+      }
     }
   }
 }
