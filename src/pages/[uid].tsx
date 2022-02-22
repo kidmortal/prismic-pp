@@ -21,16 +21,20 @@ const Page = ({ doc, previewRef }: any) => {
   if (!doc.id) {
     return <Custom404 />;
   }
-  return (
-    <div>
-      <Script
-        async
-        defer
-        src="https://static.cdn.prismic.io/prismic.js?new=true&repo=prismic-pp"
-      />
-      <SliceZone slices={doc.data.slices} resolver={resolver} />
-    </div>
-  );
+  if (doc) {
+    return (
+      <div>
+        <Script
+          async
+          defer
+          src="https://static.cdn.prismic.io/prismic.js?new=true&repo=prismic-pp"
+        />
+        <SliceZone slices={doc.data.slices} resolver={resolver} />
+      </div>
+    );
+  }
+
+  return <div></div>;
 };
 
 export async function getStaticProps({ params, previewData }: any) {
