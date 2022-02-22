@@ -3,7 +3,6 @@ import { BannersSlice } from "../types";
 import styles from "./index.module.scss";
 
 const Banners = ({ slice }: BannersSlice) => {
-  console.log(slice);
   return (
     <div className={styles.container}>
       <span className={styles.title}>{slice.primary.title}</span>

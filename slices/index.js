@@ -2,4 +2,4 @@
 
 export { default as Banners } from './Banners'
 export { default as ImageTextBox } from './ImageTextBox'
-export { default as SmallTextbox } from './SmallTextbox'
+export { default as TextBanners } from './TextBanners'

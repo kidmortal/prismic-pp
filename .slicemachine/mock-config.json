@@ -8,7 +8,19 @@
     "ImageTextBox": {
       "default-slice": {
         "primary": {},
-        "items": {}
+        "items": {
+          "content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "TextBanners": {
+      "default-slice": {
+        "primary": {}
       }
     }
   }

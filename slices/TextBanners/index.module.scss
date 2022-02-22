@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: fit-content;
+  gap: 1rem;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  border-radius: 5px;
+}
+
+.title {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.image {
+  border-radius: 5px;
+}

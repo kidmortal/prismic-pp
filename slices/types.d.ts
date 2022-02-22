@@ -26,21 +26,16 @@ type TextBox = {
   title: PrismicText;
 };
 
-declare type SmallTextboxSlice = {
+declare type TextBannersSlice = {
   slice: {
-    primary: {
-      boxColor: string;
-      text: string;
-      title: string;
-    };
-    items: Button[];
+    items: TextBanner[];
   };
 };
 
-type Button = {
-  buttonText: PrismicText;
-  buttonColor: PrismicColor;
-  buttonLink: PrismicLink;
+type TextBanner = {
+  title: PrismicText;
+  image: PrismicImage;
+  link: PrismicLink;
 };
 
 type PrismicImage = {

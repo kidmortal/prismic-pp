@@ -14,7 +14,7 @@ const ImageTextBox = ({ slice }: ImageTextBoxSlice) => {
               <RichText render={box.content} />
             </div>
           </div>
-          {box.image && (
+          {box.image.url && (
             <Image
               width={box.image.dimensions.width}
               height={box.image.dimensions.height}
