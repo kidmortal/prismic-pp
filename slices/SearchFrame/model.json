@@ -25,7 +25,7 @@
           },
           "type": "Text"
         },
-        "hotelTitle": {
+        "elquartoTitle": {
           "config": {
             "label": "elquartoTitle",
             "placeholder": ""

@@ -281,7 +281,7 @@
                   },
                   "type": "Text"
                 },
-                "hotelTitle": {
+                "elquartoTitle": {
                   "config": {
                     "label": "elquartoTitle",
                     "placeholder": ""
@@ -313,10 +313,10 @@
             "slice_type": "search_frame",
             "items": [],
             "primary": {
-              "passagemTitle": "envisioneer efficient systems",
-              "seguroTitle": "maximize cross-platform deliverables",
-              "hotelTitle": "revolutionize granular paradigms",
-              "defaultSearch": "PASSAGEM"
+              "passagemTitle": "reinvent best-of-breed portals",
+              "seguroTitle": "grow 24/365 solutions",
+              "elquartoTitle": "transform end-to-end platforms",
+              "defaultSearch": "ELQUARTO"
             }
           }
         },
@@ -325,13 +325,7 @@
           "isDirectory": true,
           "extension": "tsx"
         },
-        "screenshotPaths": {
-          "default-slice": {
-            "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/SearchFrame/default-slice/preview.png",
-            "width": 800,
-            "height": 253
-          }
-        }
+        "screenshotPaths": {}
       },
       "text_banners": {
         "library": "slices",
