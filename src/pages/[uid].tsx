@@ -12,7 +12,7 @@ import Custom404 from "./404";
 const resolver = ({ sliceName }) => Slices[sliceName];
 
 const Page = ({ doc, previewRef }: any) => {
-  useUpdatePreviewRef(previewRef, doc.id);
+  useUpdatePreviewRef(previewRef, doc?.id);
   const router = useRouter();
   if (router.isFallback) {
     return <Loader />;
