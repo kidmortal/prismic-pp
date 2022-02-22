@@ -1,0 +1,148 @@
+{
+  "slices": {
+    "components": {
+      "small_textbox": {
+        "library": "slices",
+        "id": "small_textbox",
+        "name": "SmallTextbox",
+        "description": "SmallTextbox",
+        "model": {
+          "id": "small_textbox",
+          "type": "SharedSlice",
+          "name": "SmallTextbox",
+          "description": "SmallTextbox",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "SmallTextbox",
+              "primary": {
+                "boxColor": {
+                  "config": {
+                    "label": "boxColor",
+                    "placeholder": "Text box background color"
+                  },
+                  "type": "Color"
+                },
+                "text": {
+                  "config": {
+                    "label": "text",
+                    "placeholder": "Button text"
+                  },
+                  "type": "Text"
+                },
+                "title": {
+                  "config": {
+                    "label": "title",
+                    "placeholder": "Title"
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {
+                "buttonText": {
+                  "config": {
+                    "label": "buttonText",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "buttonColor": {
+                  "config": {
+                    "label": "buttonColor",
+                    "placeholder": ""
+                  },
+                  "type": "Color"
+                },
+                "buttonLink": {
+                  "config": {
+                    "label": "buttonLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "small_textbox",
+            "items": [
+              {
+                "buttonText": "engage dot-com markets",
+                "buttonColor": "#42f3aa",
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "buttonText": "incentivize back-end technologies",
+                "buttonColor": "#3f782f",
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "buttonText": "integrate strategic synergies",
+                "buttonColor": "#ba1ce2",
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "buttonText": "reintermediate visionary functionalities",
+                "buttonColor": "#476b7b",
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "buttonText": "envisioneer virtual e-services",
+                "buttonColor": "#6b2215",
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "buttonText": "morph robust architectures",
+                "buttonColor": "#a5e992",
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              }
+            ],
+            "primary": {
+              "boxColor": "#c05e7d",
+              "text": "incentivize distributed content",
+              "title": "enable out-of-the-box partnerships"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "tsx"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/SmallTextbox/default-slice/preview.png",
+            "width": 800,
+            "height": 255
+          }
+        }
+      }
+    }
+  }
+}
