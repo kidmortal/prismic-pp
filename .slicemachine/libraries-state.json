@@ -103,6 +103,68 @@
           }
         }
       },
+      "button": {
+        "library": "slices",
+        "id": "button",
+        "name": "Button",
+        "description": "Button",
+        "model": {
+          "id": "button",
+          "type": "SharedSlice",
+          "name": "Button",
+          "description": "Button",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Button",
+              "primary": {
+                "texto": {
+                  "config": {
+                    "label": "texto",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "cor": {
+                  "config": {
+                    "label": "cor",
+                    "placeholder": ""
+                  },
+                  "type": "Color"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "button",
+            "items": [],
+            "primary": {
+              "texto": "streamline sexy methodologies",
+              "cor": "#b670c1"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/Button/default-slice/preview.png",
+            "width": 800,
+            "height": 54
+          }
+        }
+      },
       "header": {
         "library": "slices",
         "id": "header",
@@ -283,7 +345,7 @@
           "default-slice": {
             "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/Header/default-slice/preview.png",
             "width": 800,
-            "height": 352
+            "height": 158
           }
         }
       },
@@ -501,6 +563,88 @@
             "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/MainBanner/default-slice/preview.png",
             "width": 800,
             "height": 500
+          }
+        }
+      },
+      "novo_componente": {
+        "library": "slices",
+        "id": "novo_componente",
+        "name": "NovoComponente",
+        "description": "NovoComponente",
+        "model": {
+          "id": "novo_componente",
+          "type": "SharedSlice",
+          "name": "NovoComponente",
+          "description": "NovoComponente",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "NovoComponente",
+              "primary": {
+                "titulo": {
+                  "config": {
+                    "label": "titulo",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {
+                "texto": {
+                  "config": {
+                    "label": "texto",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "cor": {
+                  "config": {
+                    "label": "cor",
+                    "placeholder": ""
+                  },
+                  "type": "Color"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "novo_componente",
+            "items": [
+              {
+                "texto": "disintermediate rich experiences",
+                "cor": "#38e2e2"
+              },
+              {
+                "texto": "optimize distributed portals",
+                "cor": "#2ea4d5"
+              },
+              {
+                "texto": "engineer clicks-and-mortar vortals",
+                "cor": "#6b609a"
+              }
+            ],
+            "primary": {
+              "titulo": "whiteboard web-enabled applications"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "tsx"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/NovoComponente/default-slice/preview.png",
+            "width": 800,
+            "height": 44
           }
         }
       },

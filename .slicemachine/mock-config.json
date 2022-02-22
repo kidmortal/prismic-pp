@@ -41,6 +41,16 @@
           }
         }
       }
+    },
+    "NovoComponente": {
+      "default-slice": {
+        "primary": {}
+      }
+    },
+    "Button": {
+      "default-slice": {
+        "primary": {}
+      }
     }
   }
 }

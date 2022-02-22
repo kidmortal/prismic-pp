@@ -1,0 +1,32 @@
+{
+  "id": "button",
+  "type": "SharedSlice",
+  "name": "Button",
+  "description": "Button",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Button",
+      "primary": {
+        "texto": {
+          "config": {
+            "label": "texto",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "cor": {
+          "config": {
+            "label": "cor",
+            "placeholder": ""
+          },
+          "type": "Color"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

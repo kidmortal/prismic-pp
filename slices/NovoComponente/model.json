@@ -1,0 +1,40 @@
+{
+  "id": "novo_componente",
+  "type": "SharedSlice",
+  "name": "NovoComponente",
+  "description": "NovoComponente",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "NovoComponente",
+      "primary": {
+        "titulo": {
+          "config": {
+            "label": "titulo",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "texto": {
+          "config": {
+            "label": "texto",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "cor": {
+          "config": {
+            "label": "cor",
+            "placeholder": ""
+          },
+          "type": "Color"
+        }
+      }
+    }
+  ]
+}
