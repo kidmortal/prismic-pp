@@ -1,8 +1,7 @@
 {
   "id": "page",
-  "label": "Page",
-  "repeatable": false,
-  "status": true,
+  "label": "page",
+  "repeatable": true,
   "json": {
     "Main": {
       "uid": {
@@ -11,6 +10,14 @@
           "placeholder": ""
         },
         "type": "UID"
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "title",
+          "placeholder": "Page title"
+        }
       },
       "slices": {
         "type": "Slices",
@@ -24,5 +31,6 @@
         }
       }
     }
-  }
+  },
+  "status": true
 }

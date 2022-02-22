@@ -5,58 +5,34 @@
     "slice_type": "small_textbox",
     "items": [
       {
-        "buttonText": "engage dot-com markets",
-        "buttonColor": "#42f3aa",
+        "buttonText": "harness customized communities",
+        "buttonColor": "#d56b56",
         "buttonLink": {
           "link_type": "Web",
           "url": "http://google.com"
         }
       },
       {
-        "buttonText": "incentivize back-end technologies",
-        "buttonColor": "#3f782f",
+        "buttonText": "benchmark 24/7 bandwidth",
+        "buttonColor": "#f27f31",
         "buttonLink": {
           "link_type": "Web",
-          "url": "https://slicemachine.dev"
+          "url": "https://prismic.io"
         }
       },
       {
-        "buttonText": "integrate strategic synergies",
-        "buttonColor": "#ba1ce2",
+        "buttonText": "revolutionize open-source e-tailers",
+        "buttonColor": "#49077f",
         "buttonLink": {
           "link_type": "Web",
-          "url": "http://twitter.com"
-        }
-      },
-      {
-        "buttonText": "reintermediate visionary functionalities",
-        "buttonColor": "#476b7b",
-        "buttonLink": {
-          "link_type": "Web",
-          "url": "http://twitter.com"
-        }
-      },
-      {
-        "buttonText": "envisioneer virtual e-services",
-        "buttonColor": "#6b2215",
-        "buttonLink": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
-      },
-      {
-        "buttonText": "morph robust architectures",
-        "buttonColor": "#a5e992",
-        "buttonLink": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
+          "url": "https://prismic.io"
         }
       }
     ],
     "primary": {
-      "boxColor": "#c05e7d",
-      "text": "incentivize distributed content",
-      "title": "enable out-of-the-box partnerships"
+      "boxColor": "#59fe8b",
+      "text": "seize extensible portals",
+      "title": "redefine cutting-edge methodologies"
     }
   }
 ]

@@ -1,0 +1,42 @@
+{
+  "id": "banners",
+  "type": "SharedSlice",
+  "name": "Banners",
+  "description": "Banners",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Banners",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "bannerImage": {
+          "config": {
+            "label": "bannerImage",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "bannerLink": {
+          "config": {
+            "label": "bannerLink",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}

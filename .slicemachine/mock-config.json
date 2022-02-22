@@ -1,61 +1,9 @@
 {
   "slices": {
-    "SmallTextbox": [
-      {
-        "variation": "default-slice",
-        "name": "Default slice",
-        "slice_type": "small_textbox",
-        "items": [
-          {
-            "buttonText": "productize turn-key synergies",
-            "buttonColor": "#b37c58",
-            "buttonLink": {
-              "link_type": "Web",
-              "url": "https://slicemachine.dev"
-            }
-          },
-          {
-            "buttonText": "envisioneer leading-edge architectures",
-            "buttonColor": "#a9a4f4",
-            "buttonLink": {
-              "link_type": "Web",
-              "url": "https://prismic.io"
-            }
-          },
-          {
-            "buttonText": "revolutionize viral infrastructures",
-            "buttonColor": "#af452d",
-            "buttonLink": {
-              "link_type": "Web",
-              "url": "http://google.com"
-            }
-          },
-          {
-            "buttonText": "engineer plug-and-play bandwidth",
-            "buttonColor": "#7a8e89",
-            "buttonLink": {
-              "link_type": "Web",
-              "url": "http://twitter.com"
-            }
-          },
-          {
-            "buttonText": "incubate strategic initiatives",
-            "buttonColor": "#64d8fb",
-            "buttonLink": {
-              "link_type": "Web",
-              "url": "https://prismic.io"
-            }
-          }
-        ],
-        "primary": {
-          "boxColor": "#f16f7a",
-          "text": "deliver user-centric convergence",
-          "title": "engage back-end synergies"
-        }
+    "Banners": {
+      "default-slice": {
+        "primary": {}
       }
-    ]
-  },
-  "_cts": {
-    "page": {}
+    }
   }
 }

@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.title {
+  color: #545459;
+  font-weight: 600;
+}
+.bannerContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.banner {
+  border-radius: 5px;
+}

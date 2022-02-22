@@ -1,5 +1,4 @@
-import { linkResolver } from "../../../prismicConfiguration";
-import { Client } from "../../services/prismic";
+import { Client, linkResolver } from "../../services/prismic";
 
 export default async function preview(req: any, res: any) {
   const { token: ref, documentId } = req.query;

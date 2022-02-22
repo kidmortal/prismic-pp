@@ -1,6 +1,108 @@
 {
   "slices": {
     "components": {
+      "banners": {
+        "library": "slices",
+        "id": "banners",
+        "name": "Banners",
+        "description": "Banners",
+        "model": {
+          "id": "banners",
+          "type": "SharedSlice",
+          "name": "Banners",
+          "description": "Banners",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Banners",
+              "primary": {
+                "title": {
+                  "config": {
+                    "label": "title",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {
+                "bannerImage": {
+                  "config": {
+                    "label": "bannerImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "bannerLink": {
+                  "config": {
+                    "label": "bannerLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "banners",
+            "items": [
+              {
+                "bannerImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+                },
+                "bannerLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "bannerImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+                },
+                "bannerLink": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              }
+            ],
+            "primary": {
+              "title": "syndicate virtual action-items"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "tsx"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/Banners/default-slice/preview.png",
+            "width": 800,
+            "height": 184
+          }
+        }
+      },
       "small_textbox": {
         "library": "slices",
         "id": "small_textbox",
@@ -75,58 +177,34 @@
             "slice_type": "small_textbox",
             "items": [
               {
-                "buttonText": "engage dot-com markets",
-                "buttonColor": "#42f3aa",
+                "buttonText": "harness customized communities",
+                "buttonColor": "#d56b56",
                 "buttonLink": {
                   "link_type": "Web",
                   "url": "http://google.com"
                 }
               },
               {
-                "buttonText": "incentivize back-end technologies",
-                "buttonColor": "#3f782f",
+                "buttonText": "benchmark 24/7 bandwidth",
+                "buttonColor": "#f27f31",
                 "buttonLink": {
                   "link_type": "Web",
-                  "url": "https://slicemachine.dev"
+                  "url": "https://prismic.io"
                 }
               },
               {
-                "buttonText": "integrate strategic synergies",
-                "buttonColor": "#ba1ce2",
+                "buttonText": "revolutionize open-source e-tailers",
+                "buttonColor": "#49077f",
                 "buttonLink": {
                   "link_type": "Web",
-                  "url": "http://twitter.com"
-                }
-              },
-              {
-                "buttonText": "reintermediate visionary functionalities",
-                "buttonColor": "#476b7b",
-                "buttonLink": {
-                  "link_type": "Web",
-                  "url": "http://twitter.com"
-                }
-              },
-              {
-                "buttonText": "envisioneer virtual e-services",
-                "buttonColor": "#6b2215",
-                "buttonLink": {
-                  "link_type": "Web",
-                  "url": "https://slicemachine.dev"
-                }
-              },
-              {
-                "buttonText": "morph robust architectures",
-                "buttonColor": "#a5e992",
-                "buttonLink": {
-                  "link_type": "Web",
-                  "url": "https://slicemachine.dev"
+                  "url": "https://prismic.io"
                 }
               }
             ],
             "primary": {
-              "boxColor": "#c05e7d",
-              "text": "incentivize distributed content",
-              "title": "enable out-of-the-box partnerships"
+              "boxColor": "#59fe8b",
+              "text": "seize extensible portals",
+              "title": "redefine cutting-edge methodologies"
             }
           }
         },
@@ -139,7 +217,7 @@
           "default-slice": {
             "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/SmallTextbox/default-slice/preview.png",
             "width": 800,
-            "height": 255
+            "height": 167
           }
         }
       }
