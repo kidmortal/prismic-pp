@@ -1,0 +1,17 @@
+export declare const ERROR_COLOR = "#ED4134";
+export declare const LIGHT_GRAY = "#909090";
+export declare const DARK_GRAY = "#666565";
+export declare const BLACK = "#232323";
+export declare const PASSAGEM_MAX_PASSENGERS = 8;
+export declare const PASSAGEM_DEFAULT_AMOUNT_ADULT = 1;
+export declare const PASSAGEM_MIN_ADULTS = 1;
+export declare const PASSAGEM_DATE_LIMIT_MONTHS = 12;
+export declare const ELQUARTO_DEFAULT_AMOUNT_ROOM = 1;
+export declare const ELQUARTO_DEFAULT_AMOUNT_ADULT = 2;
+export declare const ELQUARTO_MIN_ROOM = 1;
+export declare const ELQUARTO_MIN_ADULT = 1;
+export declare const ELQUARTO_MIN_CHILD = 0;
+export declare const ELQUARTO_MAX_ROOM = 3;
+export declare const ELQUARTO_MAX_CHILD = 4;
+export declare const ELQUARTO_MAX_ADULT = 5;
+export declare const SEGUROS_DATE_LIMIT_MONTHS = 6;

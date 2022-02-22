@@ -1,6 +1,5 @@
 import { RichText } from "prismic-reactjs";
 import Image from "next/image";
-import { ImageTextBoxSlice } from "../types";
 import styles from "./index.module.scss";
 
 const ImageTextBox = ({ slice }: ImageTextBoxSlice) => {

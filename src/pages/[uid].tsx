@@ -26,12 +26,14 @@ const Page = ({ doc, previewRef }: any) => {
   if (doc) {
     return (
       <div className={styles.container}>
-        <Script
-          async
-          defer
-          src="https://static.cdn.prismic.io/prismic.js?new=true&repo=prismic-pp"
-        />
-        <SliceZone slices={doc.data.slices} resolver={resolver} />
+        <div className={styles.center}>
+          <Script
+            async
+            defer
+            src="https://static.cdn.prismic.io/prismic.js?new=true&repo=prismic-pp"
+          />
+          <SliceZone slices={doc.data.slices} resolver={resolver} />
+        </div>
       </div>
     );
   }

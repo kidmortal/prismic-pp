@@ -1,9 +1,7 @@
 import Image from "next/image";
-import { TextBannersSlice } from "../types";
 import styles from "./index.module.scss";
 
 const TextBanners = ({ slice }: TextBannersSlice) => {
-  console.log(slice);
   return (
     <div className={styles.container}>
       {slice.items.map((banner, idx) => (

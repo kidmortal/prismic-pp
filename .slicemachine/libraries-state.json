@@ -249,6 +249,90 @@
           }
         }
       },
+      "search_frame": {
+        "library": "slices",
+        "id": "search_frame",
+        "name": "SearchFrame",
+        "description": "SearchFrame",
+        "model": {
+          "id": "search_frame",
+          "type": "SharedSlice",
+          "name": "SearchFrame",
+          "description": "SearchFrame",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "SearchFrame",
+              "primary": {
+                "passagemTitle": {
+                  "config": {
+                    "label": "passagemTitle",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "seguroTitle": {
+                  "config": {
+                    "label": "seguroTitle",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "hotelTitle": {
+                  "config": {
+                    "label": "elquartoTitle",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "defaultSearch": {
+                  "config": {
+                    "label": "defaultSearch",
+                    "placeholder": "",
+                    "options": [
+                      "PASSAGEM",
+                      "SEGURO",
+                      "ELQUARTO"
+                    ],
+                    "default_value": "PASSAGEM"
+                  },
+                  "type": "Select"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "search_frame",
+            "items": [],
+            "primary": {
+              "passagemTitle": "envisioneer efficient systems",
+              "seguroTitle": "maximize cross-platform deliverables",
+              "hotelTitle": "revolutionize granular paradigms",
+              "defaultSearch": "PASSAGEM"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "tsx"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/SearchFrame/default-slice/preview.png",
+            "width": 800,
+            "height": 253
+          }
+        }
+      },
       "text_banners": {
         "library": "slices",
         "id": "text_banners",

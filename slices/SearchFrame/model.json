@@ -1,0 +1,52 @@
+{
+  "id": "search_frame",
+  "type": "SharedSlice",
+  "name": "SearchFrame",
+  "description": "SearchFrame",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SearchFrame",
+      "primary": {
+        "passagemTitle": {
+          "config": {
+            "label": "passagemTitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "seguroTitle": {
+          "config": {
+            "label": "seguroTitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "hotelTitle": {
+          "config": {
+            "label": "elquartoTitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "defaultSearch": {
+          "config": {
+            "label": "defaultSearch",
+            "placeholder": "",
+            "options": [
+              "PASSAGEM",
+              "SEGURO",
+              "ELQUARTO"
+            ],
+            "default_value": "PASSAGEM"
+          },
+          "type": "Select"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

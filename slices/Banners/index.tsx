@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { BannersSlice } from "../types";
 import styles from "./index.module.scss";
 
 const Banners = ({ slice }: BannersSlice) => {

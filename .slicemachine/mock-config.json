@@ -22,6 +22,11 @@
       "default-slice": {
         "primary": {}
       }
+    },
+    "SearchFrame": {
+      "default-slice": {
+        "primary": {}
+      }
     }
   }
 }
