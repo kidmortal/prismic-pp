@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.image {
+  width: 50rem;
+  height: 100rem;
+}

@@ -27,6 +27,11 @@
       "default-slice": {
         "primary": {}
       }
+    },
+    "MainBanner": {
+      "default-slice": {
+        "primary": {}
+      }
     }
   }
 }
