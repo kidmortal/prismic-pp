@@ -8,6 +8,8 @@ import { queryRepeatableDocuments } from "../services/query";
 import { useUpdatePreviewRef } from "../utils/useUpdatePreviewRef";
 import Custom404 from "./404";
 
+import styles from "../styles/uid.module.scss";
+
 // @ts-ignore
 const resolver = ({ sliceName }) => Slices[sliceName];
 
@@ -23,7 +25,7 @@ const Page = ({ doc, previewRef }: any) => {
   }
   if (doc) {
     return (
-      <div>
+      <div className={styles.container}>
         <Script
           async
           defer

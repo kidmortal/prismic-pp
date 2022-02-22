@@ -9,7 +9,9 @@ const resolver = ({ sliceName }) => Slices[sliceName];
 
 const SliceSimulatorPage = () => (
   // Prismic doesnt work well with typescript...
+
   <SliceSimulator
+    background="#eceff1"
     // @ts-ignore
     sliceZone={(props) => <SliceZone {...props} resolver={resolver} />}
     // @ts-ignore

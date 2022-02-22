@@ -4,6 +4,12 @@
       "default-slice": {
         "primary": {}
       }
+    },
+    "ImageTextBox": {
+      "default-slice": {
+        "primary": {},
+        "items": {}
+      }
     }
   }
 }

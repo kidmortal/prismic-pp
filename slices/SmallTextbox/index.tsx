@@ -1,3 +1,4 @@
+import { SmallTextboxSlice } from "../types";
 import styles from "./index.module.scss";
 
 const SmallTextbox = ({ slice }: SmallTextboxSlice) => {
@@ -12,7 +13,7 @@ const SmallTextbox = ({ slice }: SmallTextboxSlice) => {
         {slice.items.map((item, idx) => (
           <button
             className={styles.button}
-            onClick={() => window.open(item.buttonLink, "_blank")}
+            onClick={() => window.open(item.buttonLink.url, "_blank")}
             key={idx}
             style={{ backgroundColor: item.buttonColor }}
           >
