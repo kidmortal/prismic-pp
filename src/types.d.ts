@@ -67,3 +67,9 @@ declare type PrismicColor = string;
 declare type PrismicText = string;
 
 declare type PrismicRichText = { type: any; text: string; spans: any[] }[];
+
+declare global {
+  interface Window {
+    dataLayer: string[];
+  }
+}

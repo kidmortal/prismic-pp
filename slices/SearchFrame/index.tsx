@@ -2,7 +2,6 @@ import { SearchFrame as SearchFrameLib } from "@amopromo/searchframe";
 import styles from "./index.module.scss";
 
 const SearchFrame = ({ slice }: SearchFrameSlice) => {
-  console.log(slice);
   return (
     <div className={styles.container}>
       <SearchFrameLib
