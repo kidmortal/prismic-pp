@@ -1,13 +1,26 @@
 import SliceZone from "next-slicezone";
+import { useRouter } from "next/router";
 import Script from "next/script";
 import * as Slices from "../../slices";
-import { QueryPageSlices } from "../services/prismic";
+import { Loader } from "../components/loader";
+import { Client } from "../services/prismic";
 import { queryRepeatableDocuments } from "../services/query";
+import { useUpdatePreviewRef } from "../utils/useUpdatePreviewRef";
+import Custom404 from "./404";
 
 // @ts-ignore
 const resolver = ({ sliceName }) => Slices[sliceName];
 
-const Page = (props: any) => {
+const Page = ({ doc, previewRef }: any) => {
+  useUpdatePreviewRef(previewRef, doc.id);
+  const router = useRouter();
+  if (router.isFallback) {
+    return <Loader />;
+  }
+
+  if (!doc.id) {
+    return <Custom404 />;
+  }
   return (
     <div>
       <Script
@@ -15,16 +28,19 @@ const Page = (props: any) => {
         defer
         src="https://static.cdn.prismic.io/prismic.js?new=true&repo=prismic-pp"
       />
-      <SliceZone slices={props.slices} resolver={resolver} />
+      <SliceZone slices={doc.data.slices} resolver={resolver} />
     </div>
   );
 };
 
-export async function getStaticProps({ params }: any) {
-  const slices = await QueryPageSlices(params.uid);
+export async function getStaticProps({ params, previewData }: any) {
+  const previewRef = previewData ? previewData.ref : null;
+  const refOption: any = previewRef ? { ref: previewRef } : null;
+  const doc = (await Client().getByUID("page", params.uid, refOption)) || {};
   return {
     props: {
-      slices,
+      previewRef,
+      doc,
     },
   };
 }

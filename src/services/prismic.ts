@@ -18,3 +18,17 @@ export async function QueryPageSlices(uid: string) {
   }
   return slices;
 }
+
+export async function QueryPage(uid: string) {
+  let doc: any;
+  try {
+    // @ts-ignore
+    const page: any = await Client().getByUID("page", uid);
+    if (page) {
+      doc = page;
+    }
+  } catch (error) {
+    doc = null;
+  }
+  return doc;
+}

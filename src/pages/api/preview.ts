@@ -1,6 +1,7 @@
-import { Client, linkResolver } from "../../prismic-configuration";
+import { linkResolver } from "../../../prismicConfiguration";
+import { Client } from "../../services/prismic";
 
-export default async function preview(req, res) {
+export default async function preview(req: any, res: any) {
   const { token: ref, documentId } = req.query;
   const redirectUrl = await Client(req)
     .getPreviewResolver(ref, documentId)
