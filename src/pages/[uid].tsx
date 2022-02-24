@@ -29,9 +29,8 @@ const Page = ({ doc, previewRef }: any) => {
       <div className={styles.container}>
         <div className={styles.center}>
           <Script
-            async
-            defer
             src="https://static.cdn.prismic.io/prismic.js?new=true&repo=prismic-pp"
+            strategy="afterInteractive"
           />
           <Head>
             <title>{doc?.data?.title || "Prismic-pp"}</title>
