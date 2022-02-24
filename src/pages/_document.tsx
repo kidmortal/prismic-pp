@@ -1,5 +1,6 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+import DeferNextScript from "../config/DeferNextScript";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
@@ -33,7 +34,7 @@ class MyDocument extends Document {
         <Head></Head>
         <body>
           <Main />
-          <NextScript />
+          <DeferNextScript />
         </body>
       </Html>
     );
