@@ -16,7 +16,6 @@ const resolver = ({ sliceName }) => Slices[sliceName];
 
 const Page = ({ doc, previewRef }: any) => {
   useUpdatePreviewRef(previewRef, doc?.id);
-  console.log(doc);
   const router = useRouter();
   if (router.isFallback) {
     return <Loader />;
