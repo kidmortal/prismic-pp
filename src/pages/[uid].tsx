@@ -9,12 +9,14 @@ import { useUpdatePreviewRef } from "../utils/useUpdatePreviewRef";
 import Custom404 from "./404";
 
 import styles from "../styles/uid.module.scss";
+import Head from "next/head";
 
 // @ts-ignore
 const resolver = ({ sliceName }) => Slices[sliceName];
 
 const Page = ({ doc, previewRef }: any) => {
   useUpdatePreviewRef(previewRef, doc?.id);
+  console.log(doc);
   const router = useRouter();
   if (router.isFallback) {
     return <Loader />;
@@ -32,6 +34,13 @@ const Page = ({ doc, previewRef }: any) => {
             defer
             src="https://static.cdn.prismic.io/prismic.js?new=true&repo=prismic-pp"
           />
+          <Head>
+            <title>{doc?.data?.title || "Prismic-pp"}</title>
+            <meta
+              name="description"
+              content={doc?.data?.title || "Prismic-pp"}
+            />
+          </Head>
           <SliceZone slices={doc.data.slices} resolver={resolver} />
         </div>
       </div>
