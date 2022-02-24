@@ -31,6 +31,7 @@ declare type SearchFrameSlice = {
       elquartoTitle: PrismicText;
       passagemTitle: PrismicText;
       seguroTitle: PrismicText;
+      moveUp: number;
     };
   };
 };
