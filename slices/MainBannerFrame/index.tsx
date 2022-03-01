@@ -36,9 +36,7 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => (
       </div>
       <div className={styles.banner}>
         <div className={styles.bannerContent}>
-          <div className={styles.title}>
-            <RichText render={slice.primary.bannerTitle} />
-          </div>
+          <div className={styles.title}>{slice.primary.bannerTitle}</div>
           <div className={styles.text}>
             <RichText render={slice.primary.bannerText} />
           </div>
