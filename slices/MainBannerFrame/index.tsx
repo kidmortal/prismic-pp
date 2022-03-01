@@ -10,7 +10,7 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => (
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      backgroundColor: slice.primary.backgroundColor,
+      background: slice.primary.backgroundColor,
     }}
   >
     <div className={styles.container}>
@@ -36,11 +36,10 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => (
       <div className={styles.banner}>
         <div className={styles.bannerContent}>
           <div className={styles.title}>
-            Seu mês chegou, pode abrir os presentes!
+            <RichText render={slice.primary.bannerTitle} />
           </div>
           <div className={styles.text}>
-            No mês do consumidor, a gente embrulhou várias passagens com até 35%
-            de desconto pra você. Vem abrir!
+            <RichText render={slice.primary.bannerText} />
           </div>
         </div>
         <div className={styles.bannerImage}>
