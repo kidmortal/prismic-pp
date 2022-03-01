@@ -46,10 +46,8 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => (
           <Image
             width={330}
             height={250}
-            alt={slice.primary.headerImage.url}
-            src={
-              "https://www.passagenspromo.com.br/assets/img/promocoes/home_marco_2022_passagem.svg"
-            }
+            alt={slice.primary.bannerImage.alt}
+            src={slice.primary.bannerImage.url}
           />
         </div>
       </div>
@@ -65,7 +63,7 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => (
             elquartoSearchUrl=""
             passagemSearchUrl=""
             segurosSearchUrl=""
-            defaultSearch={slice.primary.defaultSearch || ""}
+            defaultSearch={slice.primary.defaultSearch || "PASSAGEM"}
           />
         </div>
       </div>

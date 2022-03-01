@@ -716,7 +716,13 @@
           "isDirectory": true,
           "extension": "tsx"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/MainBannerFrame/default-slice/preview.png",
+            "width": 800,
+            "height": 859
+          }
+        }
       },
       "novo_componente": {
         "library": "slices",
