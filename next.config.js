@@ -8,6 +8,7 @@ const nextConfig = {
       "images.unsplash.com",
       "images.prismic.io",
       "prismic-pp.cdn.prismic.io",
+      "www.passagenspromo.com.br",
     ],
     formats: ["image/avif", "image/webp"],
   },

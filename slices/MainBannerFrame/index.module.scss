@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 70rem;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #666565;
+  padding-bottom: 0.5rem;
+}
+
+.headerLogo {
+  width: 100%;
+  display: flex;
+}
+
+.headerLinksContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.headerLink {
+  width: 100%;
+  color: #004985;
+  font-weight: bold;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 2rem 5rem 2rem;
+}
+
+.bannerContent {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 6rem;
+}
+
+.bannerImage {
+  display: flex;
+  width: fit-content;
+}
+
+.title {
+  font-size: 2rem;
+  color: #004985;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 1.2rem;
+  color: #454749;
+  strong {
+    color: #004985;
+  }
+}
+
+.searchframeWrapper {
+  position: relative;
+  height: 2rem;
+  width: 100%;
+  background-color: red;
+}
+
+.searchframe {
+  left: 0;
+  top: -6.5rem;
+  position: absolute;
+  width: 70rem;
+}

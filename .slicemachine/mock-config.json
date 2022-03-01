@@ -51,6 +51,11 @@
       "default-slice": {
         "primary": {}
       }
+    },
+    "MainBannerFrame": {
+      "default-slice": {
+        "primary": {}
+      }
     }
   }
 }

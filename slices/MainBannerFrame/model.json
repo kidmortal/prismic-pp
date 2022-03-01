@@ -1,0 +1,93 @@
+{
+  "id": "main_banner_frame",
+  "type": "SharedSlice",
+  "name": "MainBannerFrame",
+  "description": "MainBannerFrame",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MainBannerFrame",
+      "primary": {
+        "headerImage": {
+          "config": {
+            "label": "headerImage",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "bannerImage": {
+          "config": {
+            "label": "bannerImage",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "backgroundColor": {
+          "config": {
+            "label": "backgroundColor",
+            "placeholder": ""
+          },
+          "type": "Color"
+        },
+        "bannerTitle": {
+          "config": {
+            "label": "bannerTitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "bannerText": {
+          "config": {
+            "label": "bannerText",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "passagemTitle": {
+          "config": {
+            "label": "passagemTitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "elquartoTitle": {
+          "config": {
+            "label": "elquartoTitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "seguroTitle": {
+          "config": {
+            "label": "seguroTitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "defaultSearch": {
+          "config": {
+            "label": "defaultSearch",
+            "placeholder": "",
+            "options": [
+              "PASSAGEM",
+              "ELQUARTO",
+              "SEGURO"
+            ],
+            "default_value": "PASSAGEM"
+          },
+          "type": "Select"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,5 +1,21 @@
 declare module "next-slicezone";
 
+declare type MainBannerFrameSlice = {
+  slice: {
+    primary: {
+      headerImage: PrismicImage;
+      bannerImage: PrismicImage;
+      backgroundColor: PrismicColor;
+      bannerTitle: PrismicRichText;
+      bannerText: PrismicRichText;
+      passagemTitle: PrismicText;
+      elquartoTitle: PrismicText;
+      seguroTitle: PrismicText;
+      defaultSearch: "PASSAGEM" | "ELQUARTO" | "SEGURO";
+    };
+  };
+};
+
 declare type HeaderSlice = {
   slice: {
     primary: {

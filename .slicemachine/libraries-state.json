@@ -566,6 +566,164 @@
           }
         }
       },
+      "main_banner_frame": {
+        "library": "slices",
+        "id": "main_banner_frame",
+        "name": "MainBannerFrame",
+        "description": "MainBannerFrame",
+        "model": {
+          "id": "main_banner_frame",
+          "type": "SharedSlice",
+          "name": "MainBannerFrame",
+          "description": "MainBannerFrame",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MainBannerFrame",
+              "primary": {
+                "headerImage": {
+                  "config": {
+                    "label": "headerImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "bannerImage": {
+                  "config": {
+                    "label": "bannerImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "backgroundColor": {
+                  "config": {
+                    "label": "backgroundColor",
+                    "placeholder": ""
+                  },
+                  "type": "Color"
+                },
+                "bannerTitle": {
+                  "config": {
+                    "label": "bannerTitle",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "bannerText": {
+                  "config": {
+                    "label": "bannerText",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "passagemTitle": {
+                  "config": {
+                    "label": "passagemTitle",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "elquartoTitle": {
+                  "config": {
+                    "label": "elquartoTitle",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "seguroTitle": {
+                  "config": {
+                    "label": "seguroTitle",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "defaultSearch": {
+                  "config": {
+                    "label": "defaultSearch",
+                    "placeholder": "",
+                    "options": [
+                      "PASSAGEM",
+                      "ELQUARTO",
+                      "SEGURO"
+                    ],
+                    "default_value": "PASSAGEM"
+                  },
+                  "type": "Select"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "main_banner_frame",
+            "items": [],
+            "primary": {
+              "headerImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+              },
+              "bannerImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+              },
+              "backgroundColor": "#d2fcae",
+              "bannerTitle": [
+                {
+                  "type": "paragraph",
+                  "text": "Deserunt excepteur quis labore officia incididunt incididunt amet mollit consequat do magna.",
+                  "spans": []
+                }
+              ],
+              "bannerText": [
+                {
+                  "type": "paragraph",
+                  "text": "Aliqua ea id Lorem culpa sunt occaecat. Incididunt adipisicing sint exercitation aute proident nostrud Lorem est nostrud adipisicing qui occaecat. Laborum Lorem est irure enim commodo.",
+                  "spans": []
+                }
+              ],
+              "passagemTitle": "evolve integrated interfaces",
+              "elquartoTitle": "target bleeding-edge architectures",
+              "seguroTitle": "architect ubiquitous synergies",
+              "defaultSearch": "PASSAGEM"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "tsx"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/MainBannerFrame/default-slice/preview.png",
+            "width": 800,
+            "height": 399
+          }
+        }
+      },
       "novo_componente": {
         "library": "slices",
         "id": "novo_componente",
