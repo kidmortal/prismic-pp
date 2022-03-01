@@ -11,6 +11,7 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => (
       justifyContent: "center",
       alignItems: "center",
       background: slice.primary.background,
+      marginBottom: "20rem",
     }}
   >
     <div className={styles.container}>
