@@ -10,7 +10,7 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => (
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      background: slice.primary.backgroundColor,
+      background: slice.primary.background,
     }}
   >
     <div className={styles.container}>

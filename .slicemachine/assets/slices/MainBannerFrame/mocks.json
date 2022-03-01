@@ -12,7 +12,7 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
       },
       "bannerImage": {
         "dimensions": {
@@ -21,27 +21,27 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
       },
-      "backgroundColor": "#d2fcae",
       "bannerTitle": [
         {
           "type": "paragraph",
-          "text": "Deserunt excepteur quis labore officia incididunt incididunt amet mollit consequat do magna.",
+          "text": "Cillum pariatur et ad irure ex duis quis qui ullamco. Laborum fugiat ipsum velit ipsum irure eiusmod ut elit ipsum qui ullamco nostrud. Culpa ullamco aliquip sit eu sint dolor.",
           "spans": []
         }
       ],
       "bannerText": [
         {
           "type": "paragraph",
-          "text": "Aliqua ea id Lorem culpa sunt occaecat. Incididunt adipisicing sint exercitation aute proident nostrud Lorem est nostrud adipisicing qui occaecat. Laborum Lorem est irure enim commodo.",
+          "text": "Amet duis commodo magna commodo aliqua eiusmod ipsum ad. Aute nostrud laborum anim qui commodo labore magna officia anim ullamco officia labore consequat consequat id. Sint duis cillum ut aute duis irure ex.",
           "spans": []
         }
       ],
-      "passagemTitle": "evolve integrated interfaces",
-      "elquartoTitle": "target bleeding-edge architectures",
-      "seguroTitle": "architect ubiquitous synergies",
-      "defaultSearch": "PASSAGEM"
+      "passagemTitle": "iterate strategic architectures",
+      "elquartoTitle": "streamline B2C markets",
+      "seguroTitle": "cultivate best-of-breed niches",
+      "defaultSearch": "ELQUARTO",
+      "background": "redefine impactful solutions"
     }
   }
 ]

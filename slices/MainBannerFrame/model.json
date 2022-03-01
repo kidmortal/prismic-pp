@@ -27,13 +27,6 @@
           },
           "type": "Image"
         },
-        "backgroundColor": {
-          "config": {
-            "label": "backgroundColor",
-            "placeholder": ""
-          },
-          "type": "Color"
-        },
         "bannerTitle": {
           "config": {
             "label": "bannerTitle",
@@ -85,6 +78,13 @@
             "default_value": "PASSAGEM"
           },
           "type": "Select"
+        },
+        "background": {
+          "config": {
+            "label": "background",
+            "placeholder": ""
+          },
+          "type": "Text"
         }
       },
       "items": {}
