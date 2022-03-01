@@ -85,6 +85,13 @@
             "placeholder": ""
           },
           "type": "Text"
+        },
+        "frameTop": {
+          "config": {
+            "label": "frameTop",
+            "placeholder": "-6.5rem , 100px, etc"
+          },
+          "type": "Text"
         }
       },
       "items": {}

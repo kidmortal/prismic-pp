@@ -11,7 +11,7 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => (
       justifyContent: "center",
       alignItems: "center",
       background: slice.primary.background,
-      marginBottom: "20rem",
+      marginBottom: "12rem",
     }}
   >
     <div className={styles.container}>
@@ -53,7 +53,12 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => (
         </div>
       </div>
       <div className={styles.searchframeWrapper}>
-        <div className={styles.searchframe}>
+        <div
+          style={{
+            top: slice.primary.frameTop ? slice.primary.frameTop : "-6.5rem",
+          }}
+          className={styles.searchframe}
+        >
           <SearchFrame
             frameTitles={{
               passagem: slice.primary.passagemTitle,

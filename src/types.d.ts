@@ -11,6 +11,7 @@ declare type MainBannerFrameSlice = {
       passagemTitle: PrismicText;
       elquartoTitle: PrismicText;
       seguroTitle: PrismicText;
+      frameTop: PrismicText;
       defaultSearch: "PASSAGEM" | "ELQUARTO" | "SEGURO";
     };
   };
