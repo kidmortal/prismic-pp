@@ -3,6 +3,7 @@ import { RichText } from "prismic-reactjs";
 import styles from "./index.module.scss";
 
 const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => {
+  console.log(slice);
   return (
     <div
       style={{
