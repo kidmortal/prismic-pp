@@ -616,19 +616,6 @@
                   },
                   "type": "StructuredText"
                 },
-                "defaultSearch": {
-                  "config": {
-                    "label": "defaultSearch",
-                    "placeholder": "",
-                    "options": [
-                      "PASSAGEM",
-                      "ELQUARTO",
-                      "SEGURO"
-                    ],
-                    "default_value": "PASSAGEM"
-                  },
-                  "type": "Select"
-                },
                 "background": {
                   "config": {
                     "label": "background",
@@ -655,7 +642,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
               },
               "bannerImage": {
                 "dimensions": {
@@ -664,18 +651,17 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
               },
-              "bannerTitle": "recontextualize collaborative web services",
+              "bannerTitle": "visualize ubiquitous applications",
               "bannerText": [
                 {
                   "type": "paragraph",
-                  "text": "Sunt elit mollit tempor laboris incididunt. Laborum veniam ullamco quis anim consequat irure laboris esse.",
+                  "text": "Commodo officia ex enim sint exercitation amet.",
                   "spans": []
                 }
               ],
-              "defaultSearch": "PASSAGEM",
-              "background": "synthesize 24/365 e-commerce"
+              "background": "monetize open-source architectures"
             }
           }
         },
@@ -688,7 +674,7 @@
           "default-slice": {
             "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/MainBannerFrame/default-slice/preview.png",
             "width": 800,
-            "height": 546
+            "height": 476
           }
         }
       },
@@ -866,7 +852,13 @@
           "isDirectory": true,
           "extension": "tsx"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/SearchFrame/default-slice/preview.png",
+            "width": 800,
+            "height": 317
+          }
+        }
       },
       "text_banners": {
         "library": "slices",

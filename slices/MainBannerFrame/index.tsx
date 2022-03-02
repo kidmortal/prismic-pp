@@ -1,21 +1,8 @@
-import { SearchFrame } from "@amopromo/searchframe";
 import Image from "next/image";
 import { RichText } from "prismic-reactjs";
-import { useEffect, useState } from "react";
 import styles from "./index.module.scss";
 
 const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => {
-  const [width, setWidth] = useState(1000);
-  const breakpoint = 640;
-  const smallScreen = width < breakpoint;
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-    window.addEventListener("resize", () => {
-      setWidth(window.innerWidth);
-    });
-  }, []);
-
   return (
     <div
       style={{

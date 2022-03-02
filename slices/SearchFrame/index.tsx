@@ -1,7 +1,19 @@
 import { SearchFrame as SearchFrameLib } from "@amopromo/searchframe";
+import { useEffect, useState } from "react";
 import styles from "./index.module.scss";
 
 const SearchFrame = ({ slice }: SearchFrameSlice) => {
+  const [width, setWidth] = useState(1000);
+  const breakpoint = 640;
+  const smallScreen = width < breakpoint;
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    window.addEventListener("resize", () => {
+      setWidth(window.innerWidth);
+    });
+  }, []);
+
   return (
     <div
       style={{
@@ -16,7 +28,7 @@ const SearchFrame = ({ slice }: SearchFrameSlice) => {
           elquarto: slice.primary.elquartoTitle,
           seguro: slice.primary.seguroTitle,
         }}
-        size="WIDE"
+        size={smallScreen ? "THIN" : "WIDE"}
         elquartoSearchUrl=""
         passagemSearchUrl=""
         segurosSearchUrl=""

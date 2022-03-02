@@ -43,19 +43,6 @@
           },
           "type": "StructuredText"
         },
-        "defaultSearch": {
-          "config": {
-            "label": "defaultSearch",
-            "placeholder": "",
-            "options": [
-              "PASSAGEM",
-              "ELQUARTO",
-              "SEGURO"
-            ],
-            "default_value": "PASSAGEM"
-          },
-          "type": "Select"
-        },
         "background": {
           "config": {
             "label": "background",
