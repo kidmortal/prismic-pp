@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #666565;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 .headerLogo {
@@ -37,6 +37,35 @@
   font-weight: bold;
   font-size: 1rem;
   white-space: nowrap;
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 6px 5px 0;
+  border-color: transparent #004986 transparent transparent;
+}
+
+.menuButton {
+  display: none;
+  width: 100%;
+  text-align: right;
+  color: #004985;
+  font-weight: bold;
+  font-size: 1rem;
+  white-space: nowrap;
+  @media screen and (max-width: 900px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.3rem;
+  }
 }
 
 .banner {

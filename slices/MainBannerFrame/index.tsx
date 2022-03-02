@@ -32,6 +32,10 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => {
             <span className={styles.headerLink}>Blog</span>
             <span className={styles.headerLink}>Ajuda</span>
             <span className={styles.headerLink}>Conta</span>
+            <div className={styles.menuButton}>
+              Menu
+              <span className={styles.triangle}></span>
+            </div>
           </div>
         </div>
         <div className={styles.banner}>
