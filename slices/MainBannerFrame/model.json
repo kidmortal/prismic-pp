@@ -43,27 +43,6 @@
           },
           "type": "StructuredText"
         },
-        "passagemTitle": {
-          "config": {
-            "label": "passagemTitle",
-            "placeholder": ""
-          },
-          "type": "Text"
-        },
-        "elquartoTitle": {
-          "config": {
-            "label": "elquartoTitle",
-            "placeholder": ""
-          },
-          "type": "Text"
-        },
-        "seguroTitle": {
-          "config": {
-            "label": "seguroTitle",
-            "placeholder": ""
-          },
-          "type": "Text"
-        },
         "defaultSearch": {
           "config": {
             "label": "defaultSearch",
@@ -81,13 +60,6 @@
           "config": {
             "label": "background",
             "placeholder": ""
-          },
-          "type": "Text"
-        },
-        "frameTop": {
-          "config": {
-            "label": "frameTop",
-            "placeholder": "-6.5rem , 100px, etc"
           },
           "type": "Text"
         }

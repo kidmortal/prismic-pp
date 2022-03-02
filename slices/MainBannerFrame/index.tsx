@@ -63,23 +63,6 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => {
             />
           </div>
         </div>
-        <div
-          style={{ marginTop: slice.primary.frameTop }}
-          className={styles.searchframe}
-        >
-          <SearchFrame
-            frameTitles={{
-              passagem: slice.primary.passagemTitle,
-              elquarto: slice.primary.elquartoTitle,
-              seguro: slice.primary.seguroTitle,
-            }}
-            size={smallScreen ? "THIN" : "WIDE"}
-            elquartoSearchUrl=""
-            passagemSearchUrl=""
-            segurosSearchUrl=""
-            defaultSearch={slice.primary.defaultSearch || "PASSAGEM"}
-          />
-        </div>
       </div>
     </div>
   );

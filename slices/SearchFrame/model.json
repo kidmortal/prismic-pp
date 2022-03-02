@@ -44,6 +44,20 @@
             "default_value": "PASSAGEM"
           },
           "type": "Select"
+        },
+        "marginTop": {
+          "config": {
+            "label": "marginTop",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "marginBottom": {
+          "config": {
+            "label": "marginBottom",
+            "placeholder": ""
+          },
+          "type": "Text"
         }
       },
       "items": {}

@@ -3,7 +3,13 @@ import styles from "./index.module.scss";
 
 const SearchFrame = ({ slice }: SearchFrameSlice) => {
   return (
-    <div className={styles.container}>
+    <div
+      style={{
+        marginTop: slice.primary.marginTop,
+        marginBottom: slice.primary.marginBottom,
+      }}
+      className={styles.container}
+    >
       <SearchFrameLib
         frameTitles={{
           passagem: slice.primary.passagemTitle,
