@@ -20,8 +20,8 @@ const MainBannerFrame = ({ slice }: MainBannerFrameSlice) => {
             <Image
               width={200}
               height={64}
-              alt={slice.primary.headerImage.alt}
-              src={slice.primary.headerImage.url}
+              alt="banner-image"
+              src={slice.primary.bannerImageUrl.url}
             />
           </div>
           <div className={styles.headerLinksContainer}>

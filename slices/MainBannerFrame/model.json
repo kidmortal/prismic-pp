@@ -49,6 +49,14 @@
             "placeholder": ""
           },
           "type": "Text"
+        },
+        "bannerImageUrl": {
+          "config": {
+            "label": "bannerImageUrl",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
         }
       },
       "items": {}

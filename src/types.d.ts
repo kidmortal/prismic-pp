@@ -5,6 +5,7 @@ declare type MainBannerFrameSlice = {
     primary: {
       headerImage: PrismicImage;
       bannerImage: PrismicImage;
+      bannerImageUrl: PrismicLink;
       background: PrismicText;
       bannerTitle: PrismicRichText;
       bannerText: PrismicRichText;
