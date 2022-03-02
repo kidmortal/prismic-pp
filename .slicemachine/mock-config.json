@@ -54,7 +54,14 @@
     },
     "MainBannerFrame": {
       "default-slice": {
-        "primary": {}
+        "primary": {
+          "bannerText": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
     }
   }

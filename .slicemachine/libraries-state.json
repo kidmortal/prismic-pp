@@ -612,7 +612,7 @@
                     "label": "bannerText",
                     "placeholder": "",
                     "allowTargetBlank": true,
-                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
                   },
                   "type": "StructuredText"
                 },
@@ -683,7 +683,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"
               },
               "bannerImage": {
                 "dimensions": {
@@ -692,22 +692,22 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
               },
-              "bannerTitle": "exploit mission-critical metrics",
+              "bannerTitle": "seize best-of-breed e-markets",
               "bannerText": [
                 {
                   "type": "paragraph",
-                  "text": "Voluptate proident ex elit sit cillum dolor laborum.",
+                  "text": "Adipisicing occaecat non amet est excepteur irure aliquip. Irure consequat eu ea elit sunt anim esse eu aute quis quis velit nulla. Irure labore Lorem deserunt anim eu anim eu qui.",
                   "spans": []
                 }
               ],
-              "passagemTitle": "scale scalable architectures",
-              "elquartoTitle": "evolve back-end supply-chains",
-              "seguroTitle": "drive customized action-items",
-              "defaultSearch": "ELQUARTO",
-              "background": "enhance innovative relationships",
-              "frameTop": "empower cross-platform users"
+              "passagemTitle": "redefine integrated solutions",
+              "elquartoTitle": "implement B2C synergies",
+              "seguroTitle": "monetize holistic channels",
+              "defaultSearch": "PASSAGEM",
+              "background": "harness cross-media content",
+              "frameTop": "deliver wireless solutions"
             }
           }
         },
@@ -720,7 +720,7 @@
           "default-slice": {
             "path": "/home/kidmortal/codigos/kidmortal/prismic-pp/.slicemachine/assets/slices/MainBannerFrame/default-slice/preview.png",
             "width": 800,
-            "height": 366
+            "height": 557
           }
         }
       },
